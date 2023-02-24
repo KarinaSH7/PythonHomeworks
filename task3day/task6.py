@@ -7,5 +7,4 @@ while True:
         cost = (cost / 100) * 15
         print('К оплате:', cost)
 
-
     print('Спасибо за покупку!')

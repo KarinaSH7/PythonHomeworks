@@ -1,7 +1,7 @@
-#number = input().split(" ")
-#for i in number:
-    #if i.find("@") != -1:
-        #print(i)
+# number = input().split(" ")
+# for i in number:
+# if i.find("@") != -1:
+# print(i)
 
 
 text = input(" ").split("@")

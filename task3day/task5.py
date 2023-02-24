@@ -3,7 +3,7 @@ while True:
     cost = float(input('Введите стоимость покупки: '))
     if cost == 0:
         break
-    discount = (cost/100)*20
+    discount = (cost / 100) * 20
     difference = cost - discount
     print(f'скидка: {discount}')
     print(f'к оплате: {difference}')

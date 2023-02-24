@@ -1,3 +1,3 @@
 string = input()
-str1 = string.replace("--","—")
+str1 = string.replace("--", "—")
 print(str1)

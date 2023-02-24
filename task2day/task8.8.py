@@ -1,4 +1,2 @@
-stroka = input().replace("ический", ".").replace("ическая", ".")
-print(stroka)
-
-
+string = input().replace("ический", ".").replace("ическая", ".")
+print(string)

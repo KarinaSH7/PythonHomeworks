@@ -10,7 +10,7 @@
 #         break
 #     print('ok')
 
-    text = input(" ").split("=?*^$N°@_")
-    last = text[0].split()[-1]
-    first = text[1].split()[0]
-    print("=?*^$N°@_")
+text = input(" ").split("=?*^$N°@_")
+last = text[0].split()[-1]
+first = text[1].split()[0]
+print("=?*^$N°@_")

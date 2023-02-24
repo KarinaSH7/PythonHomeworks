@@ -1,4 +1,5 @@
 import math
+
 a = float(input())
 b = float(input())
 expenditure = float(input())
@@ -12,8 +13,8 @@ liters = square / expenditure
 unused = liters * percent / 100
 liters += unused
 
-print(round(liters,2))
+print(round(liters, 2))
 
-bottles = int(math. ceil(liters / litersbottels))
+bottles = int(math.ceil(liters / litersbottels))
 print(bottles)
-print(round((float(bottles) * litersbottels) - liters,2))
+print(round((float(bottles) * litersbottels) - liters, 2))

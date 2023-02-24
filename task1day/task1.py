@@ -1,1 +1,1 @@
-print(int(sum(range(16,25))))
+print(int(sum(range(16, 25))))

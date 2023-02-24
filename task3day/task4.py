@@ -6,4 +6,3 @@ while True:
         break
     else:
         print('Спасибо ваш отзыв принят!')
-        continue
