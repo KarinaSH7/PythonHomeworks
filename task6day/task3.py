@@ -4,9 +4,6 @@
 Даны списки семей в квартирах.
 Используя операции со множествами вычислите колько семей живёт в доме N.
 """
-newspaper = set(range(1, 76))
-magazine = set(range(77, 104))
-both = set(range(21, 34))
-h = (magazine - both)
-b = len((newspaper | h))
-print(list(h))
+
+object = max(set(newspaper).union(set(magazine))) - min(set(newspaper).union(set(magazine)))+1
+print(object - (max(both) - min(both) + 1))
