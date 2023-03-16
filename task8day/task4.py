@@ -5,8 +5,7 @@
 Формула определения ИМТ: index = weight / (height * height)
 """
 def indexm(weight, height):
-    return weight / (height * height)
-
+    return weight /(height/100)**2
 def indexr(weight, height):
     result = indexm (weight, height)
     if 18.5 < result < 25:
