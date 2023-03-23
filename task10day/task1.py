@@ -6,6 +6,8 @@
 Оформить в виде функции.
 """
 from time import time
+
+
 def chees():
     left = 30 * 60
     move = input('введите ход: ')
@@ -15,6 +17,7 @@ def chees():
         end = time()
         move_time = end - start
         left = left - move_time
-        print('У вас осталось', int(left/60))
+        print('У вас осталось', int(left / 60))
+
 
 chees()
