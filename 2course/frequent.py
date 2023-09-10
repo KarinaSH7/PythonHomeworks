@@ -7,3 +7,15 @@ PS отрывок текста - это вот этот текст что све
 PS2 для нахождения наиболее встречающегося символа можно использовать класс Counter из модуля collections
 и метод класса most_common().
 """
+
+from collections import Counter
+
+
+def top3(st):
+    st = st.replace(" ", "")
+    count = Counter(st)
+    top = count.most_common(3)
+    result = ""
+    for item in top:
+        result += item[0] + " - " + str(item[1]) + ", "
+    return result[:-2]
